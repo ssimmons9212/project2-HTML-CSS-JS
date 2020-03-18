@@ -1,0 +1,53 @@
+/* Getting rid of the default link styles here */
+ body {
+  padding: 0;
+  margin: 0;
+  background: #f6e9e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#D85A76;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.logo {
+    font-weight: bold;
+    background-color: gray
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+}
+h1 {
+    color: gray;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h2 {
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10%;
+}
+
+.col-sm-12 {
+    margin-left: 10%;
+}
